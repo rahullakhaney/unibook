@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "toastr";
+@import "normalize";
 
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -62,5 +63,25 @@ body {
 	padding-top: 2em;
 	img {
 		border: 1px solid #e9f0f3;
+	}
+	h5 {
+		text-align: center;
+	}
+}
+#jumbo-tron {
+	margin-top: -17px;
+	h1 {
+		text-align: center;
+		font-size: 3em;
+		padding: 0em 1em;
+	}
+	.jumbotron {
+		background-color: #5fcf80;
+		color: white;
+	}
+	.sign-up {
+		text-align: center;
+		margin-bottom: 2em;
+		margin-top: 0;
 	}
 }

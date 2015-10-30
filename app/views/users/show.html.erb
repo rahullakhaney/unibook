@@ -2,12 +2,14 @@
 	<h1><%= @user.username %> Profile</h1>
 </div>
 <div class="container">
-<div id="profile_page" class="row">
-	<div class="col-md-2">
-		<%= gravatar_tag @user.email, size: 150 %>
+	<div id="profile_page" class="row">
+		<div class="col-md-2">
+			<%= gravatar_tag @user.email, size: 150 %>
+			<h5>Age <%= @user.age %></h5>
+			<h5><%= @user.gender %></h5>
+		</div>
+		<div class="col-md-10">
+			<p><%= @user.bio %></p> 
+		</div>
 	</div>
-	<div class="col-md-10">
-		
-	</div>
-</div>
 </div>
